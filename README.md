@@ -6,7 +6,7 @@ This checkpoint assesses your ability to design a normalized multi-table databas
 - [Setup](#setup)
 - [Grading](#grading)
   - [Part 1: Schema Design (17 pts)](#part-1-schema-design-17-pts)
-  - [Part 2: Queries (5 pts)](#part-2-queries-5-pts)
+  - [Part 2: Queries (4 pts)](#part-2-queries-4-pts)
 
 ## Scenario
 
@@ -37,30 +37,23 @@ git checkout -b draft
 When seeding your tables, feel free to use these suggestions or come up with your own:
 
 **Chefs:**
-- Marcus Samuelsson (Gothenburg, Sweden — Ethiopian-Swedish Fusion)
-- Yotam Ottolenghi (Jerusalem, Israel — Middle Eastern)
-- Ina Garten (New York, USA — French-American)
-- Nobu Matsuhisa (Saitama, Japan — Japanese-Peruvian)
+- Sofia Reyes (Mexico City, Mexico — Mexican)
+- James Park (Seoul, South Korea — Korean)
+- Lena Bauer (Munich, Germany — German)
 
-**Recipes:**
-- Jollof Rice
-- Shakshuka
-- Roast Chicken
-- Miso-Glazed Salmon
-- Roasted Cauliflower with Tahini
-- Beef Wellington
+**Recipes and their ingredients:**
 
-**Ingredients:**
-- long grain rice (cups)
-- tomato paste (tablespoons)
-- garlic (cloves)
-- olive oil (tablespoons)
-- chicken broth (cups)
-- eggs (whole)
-- onion (whole)
-- lemon (whole)
-- smoked paprika (teaspoons)
-- butter (tablespoons)
+| Recipe       | Ingredient    | Unit        | Quantity |
+| ------------ | ------------- | ----------- | -------- |
+| Garlic Pasta | pasta         | ounces      | 8        |
+| Garlic Pasta | garlic        | cloves      | 4        |
+| Garlic Pasta | olive oil     | tablespoons | 3        |
+| Fried Rice   | rice          | cups        | 2        |
+| Fried Rice   | eggs          | whole       | 2        |
+| Fried Rice   | soy sauce     | tablespoons | 2        |
+| Tomato Soup  | tomatoes      | whole       | 4        |
+| Tomato Soup  | onion         | whole       | 1        |
+| Tomato Soup  | chicken broth | cups        | 2        |
 
 **4. Run your file to verify it works end to end:**
 
