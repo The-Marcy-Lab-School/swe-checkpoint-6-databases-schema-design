@@ -34,6 +34,34 @@ git checkout -b draft
 
 **3. Work in `schema.sql`.** The file already creates `cooking_db` for you — start writing your `DROP`, `CREATE`, and `INSERT` statements in the sections provided.
 
+When seeding your tables, feel free to use these suggestions or come up with your own:
+
+**Chefs:**
+- Marcus Samuelsson (Gothenburg, Sweden — Ethiopian-Swedish Fusion)
+- Yotam Ottolenghi (Jerusalem, Israel — Middle Eastern)
+- Ina Garten (New York, USA — French-American)
+- Nobu Matsuhisa (Saitama, Japan — Japanese-Peruvian)
+
+**Recipes:**
+- Jollof Rice
+- Shakshuka
+- Roast Chicken
+- Miso-Glazed Salmon
+- Roasted Cauliflower with Tahini
+- Beef Wellington
+
+**Ingredients:**
+- long grain rice (cups)
+- tomato paste (tablespoons)
+- garlic (cloves)
+- olive oil (tablespoons)
+- chicken broth (cups)
+- eggs (whole)
+- onion (whole)
+- lemon (whole)
+- smoked paprika (teaspoons)
+- butter (tablespoons)
+
 **4. Run your file to verify it works end to end:**
 
 **Mac:**
@@ -74,7 +102,7 @@ sudo -u postgres psql -f schema.sql
 **Seed Data (2 pts)**
 - [ ] At least 3 rows are inserted into each table with realistic, consistent data
 
-### Part 2: Queries (5 pts)
+### Part 2: Queries (4 pts)
 
 Each query is worth 1 point based on correctness. Half credit (0.5 points) is awarded for queries that use the right structure but contain minor errors.
 
@@ -82,4 +110,3 @@ Each query is worth 1 point based on correctness. Half credit (0.5 points) is aw
 - [ ] Q2: Ingredients for a specific recipe — name, unit, and quantity
 - [ ] Q3: Recipe count per chef, ordered by count descending
 - [ ] Q4: Ingredients used in more than 3 recipes
-- [ ] Q5: Each chef with a count of distinct ingredients across all their recipes

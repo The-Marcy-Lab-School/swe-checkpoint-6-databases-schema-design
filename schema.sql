@@ -77,9 +77,3 @@ CREATE DATABASE cooking_db;
 -- Question 4:
 -- Which ingredients are used in more than 3 recipes?
 -- Show the ingredient name and the number of recipes it appears in.
-
-
--- Question 5:
--- List every chef alongside the total number of distinct ingredients
--- used across all of their recipes.
--- Show the chef's name and the ingredient count.
