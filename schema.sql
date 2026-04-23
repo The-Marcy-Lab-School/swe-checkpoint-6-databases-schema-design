@@ -59,12 +59,12 @@ CREATE DATABASE cooking_db;
 -- ============================================================
 
 -- Question 1:
--- What recipes has the chef named 'Marcus Samuelsson' authored?
+-- What recipes has the chef named 'Marcus Samuelsson' (or any given chef) authored?
 -- Show the recipe title and cook time in minutes.
 
 
 -- Question 2:
--- What ingredients does the recipe titled 'Jollof Rice' use?
+-- What ingredients does the recipe titled 'Jollof Rice' (or any given recipe) use?
 -- Show the ingredient name, unit, and quantity.
 
 
